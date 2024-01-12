@@ -12,7 +12,7 @@ const settings = {
   slidesToShow: 3,
   slidesToScroll: 3,
   autoplay: true,
-  autoplaySpeed: 1000,
+  autoplaySpeed: 3000,
   arrows: false,
 };
 import { ScrollableSection } from "../../components/scrollable/Scrollable";
@@ -38,27 +38,27 @@ export const Udcp = () => {
         data={[
           {
             title: "Gain Value From Your Data, All in One Platform ",
-            img:"/src/assets/images/2.png",
+            img:"images/2.png",
             content:
               "An Open/Secure/Zero-Copy for all data. Seamlessly use unstructured, semi-structured and structured data together, irrespective of where it’s stored i.e. on-prem, cloud: private or public, optimized or managed.             ",
           },
           {
             title: "  Protect Your Data with built-in Unified Governance",
-            img:"/src/assets/images/5.png",
+            img:"images/5.png",
 
             content:
               "Secure your data lake, analytics and AI models with detailed, out-of-the-box metadata, granular and consistent access controls, and telemetry to monitor ongoing usage            ",
           },
           {
             title: "Real-Time Analytics",
-            img:"/src/assets/images/3.png",
+            img:"images/3.png",
 
             content:
               "Real-time analytics, AI applications made simple by training and deploying custom-build secure generative AI models through ETL, data pipelines and Orchestration for batch and streaming data",
           },
           {
             title: "Multi-Cloud Collaborations and Operations",
-            img:"/src/assets/images/4.png",
+            img:"images/4.png",
 
             content:
               "Instantly discover, access, and share data, services and apps across multi-clouds and regions without ETL. Flexible policies, tags, and lineage for observability to follow the data for consistent governance across users, workloads, clouds, and regions. Unparallel resiliency to avoid disruptions, comply with changing regulations or cross-cloud migration between clouds. Interconnect your business’ ecosystems across regions and clouds with a cross-cloud technology layer that lets you operate at global scale.",

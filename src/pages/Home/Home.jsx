@@ -37,7 +37,7 @@ export const Home = () => {
             loop
             className="video   "
           >
-            <source src="./src/assets/digitial.mp4" type="video/mp4" />
+            <source src="digitial.mp4" type="video/mp4" />
           </video>
 
           <Hero
@@ -96,19 +96,19 @@ export const Home = () => {
           data={[
             {
               title: "Business Context",
-              img:"/src/assets/images/purplescroll.avif",
+              img:"images/purplescroll.avif",
               content:
                 " We provide visibility into your organization’s environment. Build data-driven-models to prepare a single source of truth to eliminate risks and increase resilience of products, services, and systems.",
             },
             {
               title: "Prevent Blind-Spots",
-              img:"/src/assets/images/3.png",
+              img:"images/3.png",
               content:
                 "With our biometric real-time authentication and authorization product, AIDNA capture telescopic view of everything – users, systems, applications, data, insights, analytics, and risks. Our Adaptive AI platform address gaps in real-time and effective manner.             ",
             },
             {
               title: "Unlock Value",
-              img:"/src/assets/images/2.png",
+              img:"images/2.png",
               content:
                 "Turns insights into action. Unlock the potential value of your digital universe with our Data Intelligence and AI Platform. AI powered Operations for every business decision",
             },

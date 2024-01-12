@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
 import UilListUiAlt from '@iconscout/react-unicons/icons/uil-list-ui-alt';
 import { PrimaryButton } from '../button/PrimaryButton';
+// import Logo from "../../assets/aidna.svg"
 export const Navbar = () => {
 
   const [isOpen,setIsOpen ] = useState(false)
@@ -20,7 +21,7 @@ window.addEventListener("scroll", changeNavbarColor);  return (
     <nav     className=''  >
       <div className={`nav-container  flex justify-between  items-center sm:hidden lg:flex max-sm:hidden md:flex w-full  ${colorChange ? "nav-overlay" : null}`}>
 
-      <div className="logo  text-white "><img  className="w-[250px] h-[250px] mt-3" src={"./src/assets/aidna.SVG"} alt="" /></div>
+      <div className="logo  text-white "><img  className="w-[250px] h-[250px] mt-3" src={"aidna.svg"} alt="" /></div>
       <ul className="links">
         <li>
           <NavLink className={"text-white hover:text-primarayColor"}  to={"/"} >Home</NavLink>

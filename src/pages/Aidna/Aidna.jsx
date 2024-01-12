@@ -28,13 +28,13 @@ export const Aidna = () => {
         data={[
           {
             title: "Visualization and Mapping ",
-            img:"/src/assets/images/purplescroll.avif",
+            img:"images/purplescroll.avif",
             content:
               "Understand the data sets, relationships, trust boundaries and context between your assets through our aGraph™ powered asset relationship mapping",
             },
           {
             title: "Security Gaps & Inconsistencies",
-            img:"/src/assets/images/2.png",
+            img:"images/2.png",
 
             content:
               "Real-time biometric facial recognition processing backed with AI capabilities, rapidly identifies security gaps, vulnerabilities, and data inconsistencies",
@@ -42,21 +42,21 @@ export const Aidna = () => {
 
           {
             title: "Data Integrations",
-            img:"/src/assets/images/3.png",
+            img:"images/3.png",
 
             content:
               "Being a cross-cloud platform, data flow and API integrations bedrocks for custom workflows models without compromising performance, data privacy and IP control.",
           },
           {
             title: "Insights and Automate",
-            img:"/src/assets/images/4.png",
+            img:"images/4.png",
 
             content:
               "Data and insights are at the core of AIDNA, with Custom workflows, allowing to automate the existing operations with adaptive learning capabilities to enhance productivity.             ",
           },
           {
             title: "Improve & Report",
-            img:"/src/assets/images/5.png",
+            img:"images/5.png",
 
             content:
               "AI driven operational insights and data hygiene provide security compliance and real-time reporting. ",
@@ -74,7 +74,7 @@ export const Aidna = () => {
         data={[
           {
             btnTitle: "Customized Use Case",
-            img:"/src/assets/images/aidna.svg",
+            img:"images/aidna.svg",
             content: (
               <div>
                 Scalable AI applications with cloud-native development and use
@@ -88,7 +88,7 @@ export const Aidna = () => {
           },
           {
             btnTitle: "Governance",
-            img:"/src/assets/images/purpleaidna.svg",
+            img:"images/purpleaidna.svg",
             content: (
               <div>
                 Unifying observability and governance for data, analytics, and
@@ -110,7 +110,7 @@ export const Aidna = () => {
           },
           {
             btnTitle: "Data Warehousing",
-            img:"/src/assets/images/yellowaidna.svg",
+            img:"images/yellowaidna.svg",
             content: (
               <div>
                 Cloud Native operations and AI optimized query execution
@@ -125,7 +125,7 @@ export const Aidna = () => {
           },
           {
             btnTitle: "ETL and Data Sharing",
-            img:"/src/assets/images/greenaidna.svg",
+            img:"images/greenaidna.svg",
             content: (
               <div>
                 Adaptive Intelligence data processing – batch and real-time. AI
@@ -141,7 +141,7 @@ export const Aidna = () => {
           },
           {
             btnTitle: "Data Sharing and Orchestrations",
-            img:"/src/assets/images/teal.svg",
+            img:"images/teal.svg",
             content: (
               <div>
                 Data Sharing made easy with secure live shares for data sets,

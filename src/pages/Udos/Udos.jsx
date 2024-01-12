@@ -12,7 +12,7 @@ const settings = {
   slidesToShow: 3,
   slidesToScroll: 3,
   autoplay: true,
-  autoplaySpeed: 1000,
+  autoplaySpeed: 3000,
   arrows: false,
 };
 import { ScrollableSection } from "../../components/scrollable/Scrollable";
@@ -38,27 +38,27 @@ export const Udos = () => {
         data={[
           {
             title: "Continuous Biometric Security",
-            img:"/src/assets/images/2.png",
+            img:"images/2.png",
             content:
               "Utilizing well defined existing security mechanisms to bring together assets and pinpoint risks all over your network for effortless",
           },
           {
             title: "  Model Management & Data Protection",
-            img:"/src/assets/images/5.png",
+            img:"images/5.png",
 
             content:
               "DOS aggregates data from your entire tech stack, generating a comprehensive asset inventory with more biometric intelligence than any single security tool can provide – predicting any misconfigurations or deficiencies in your technology operations.",
           },
           {
             title: "Real Time Intelligence",
-            img:"/src/assets/images/4.png",
+            img:"images/4.png",
 
             content:
               "ntegrated with your existing infrastructure and data sources, üDOS provides a high-value intelligence with minimal effort. With scaling IT infrastructure in size and complexity, our platform provides up-to-date sources of truth as essential necessity.",
           },
           {
             title: "Mission Control",
-            img:"/src/assets/images/3.png",
+            img:"images/3.png",
             content:
               "Unify Observability and bring order to the chaos for your data operations. Enhance digital performance with end-to-end data analytics, tagging and monitoring. Predictive analytics and proactive monitoring detect, investigate and respond to threats from one modern and unified work surface. ",
           },

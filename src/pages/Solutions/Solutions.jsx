@@ -44,7 +44,7 @@ export const Solutions = () => {
         data={[
           {
             title: "Data & Analytics for intelligent workflows",
-            img:"/src/assets/images/purplescroll.avif",
+            img:"images/purplescroll.avif",
             content: (
               <div>
                 We modernize, collect, organize, analyse and infuse data and
@@ -65,7 +65,7 @@ export const Solutions = () => {
           },
           {
             title: "Business Continuity & Resilience",
-            img:"/src/assets/images/2.png",
+            img:"images/2.png",
 
             content: (
               <div>
@@ -84,7 +84,7 @@ export const Solutions = () => {
           },
           {
             title: "AI and Machine Learning",
-            img:"/src/assets/images/3.png",
+            img:"images/3.png",
 
             content: (
               <div>
@@ -107,7 +107,7 @@ export const Solutions = () => {
         data={[
           {
             btnTitle: "Innovate",
-            img:"/src/assets/images/purpleaidna.svg",
+            img:"images/purpleaidna.svg",
 
             content: (
               <div>
@@ -124,7 +124,7 @@ export const Solutions = () => {
           },
           {
             btnTitle: "Strategize",
-            img:"/src/assets/images/yellowaidna.svg",
+            img:"images/yellowaidna.svg",
 
             content: (
               <div>
@@ -142,7 +142,7 @@ export const Solutions = () => {
           },
           {
             btnTitle:"Technologize",
-            img:"/src/assets/images/aidna.svg",
+            img:"images/aidna.svg",
 
             content: (
               <div>
@@ -162,7 +162,7 @@ export const Solutions = () => {
           },
           {
             btnTitle: "Unlock Potential",
-            img:"/src/assets/images/teal.svg",
+            img:"images/teal.svg",
 
             content: (
               <div>

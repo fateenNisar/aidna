@@ -27,25 +27,25 @@ export const ClientLogo = () => {
     <div  className='client-logo-carousel  mx-auto max-w-[1200px] ' >  
        <Slider {...settings} className='text-white'>
        <div className='bg-white h-32  md:h-64 p-5  '>
-        <img src=" ./src/assets/client-logos/1.png" className='client-logo-img' alt="" />
+        <img src=" client-logos/1.png" className='client-logo-img' alt="" />
       </div>
       <div className='bg-white h-32  md:h-64 p-10 ' >
-      <img src=" ./src/assets/client-logos/2.png" className='client-logo-img' alt="" />
+      <img src=" client-logos/2.png" className='client-logo-img' alt="" />
       </div>
       <div className='bg-white h-32  md:h-64  p-0'>
-      <img src=" ./src/assets/client-logos/8.jpg" className='client-logo-img' alt="" />
+      <img src=" client-logos/8.jpg" className='client-logo-img' alt="" />
 
       </div>
       <div className='bg-white  h-32  md:h-64  p-5'>
-      <img src=" ./src/assets/client-logos/4.png" className='client-logo-img' alt="" />
+      <img src=" client-logos/4.png" className='client-logo-img' alt="" />
 
       </div>
       <div className='bg-white h-32  md:h-64  p-0'>
-      <img src=" ./src/assets/client-logos/5.png" className='client-logo-img' alt="" />
+      <img src=" client-logos/5.png" className='client-logo-img' alt="" />
 
       </div >
       <div className='bg-white h-32  md:h-64  p-5'>
-      <img src=" ./src/assets/client-logos/6.jpeg" className='client-logo-img' alt="" />
+      <img src=" client-logos/6.jpeg" className='client-logo-img' alt="" />
 
       </div>
 
