@@ -1,0 +1,23 @@
+.client-logo-img {
+  /* width: 20%; */
+  /* height:300px; */
+  /* width: 200px; */
+  object-fit: contain;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-self: center; */
+  /* align-items: center; */
+  position: relative;
+  /* display: flex; */
+  left: 50%;
+  aspect-ratio: 16/9;
+  transform: translateX(-50%);
+  /* mix-blend-mode: color-dodge; */
+}
+.slick-dots  button:before {
+  color:White !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color:#8755FE !important;
+}

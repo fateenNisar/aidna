@@ -1,0 +1,72 @@
+
+#root {
+    --primary-color: #3DF2D4;
+}
+.title {
+    font-size: 10px;
+    color: white;
+    margin:10px auto;
+    width: 100%;
+    
+}
+
+.title h1 {
+    text-align: center;
+    /* color: var(--primary-color); */
+    /* font-family: "poppins"; */
+    border-radius: 5px;
+    /* text-shadow: 0 0 0.125em white, 0px 0px 0.25em #fff; */
+    /* text-shadow:  0  0 0.125em currentColor; */
+    /* box-shadow:inset 0 0 0.5em 0 var(--primary-color) ,0 0 0.5em 0 var(--primary-color); */
+    position: relative;
+    display: inline-block;
+    transform: translateX(-50%);
+    /* margin: 0 auto; */
+    left: 50%;
+    font-size: 28px;
+    font-weight: 400;
+    /* margin-bottom: 20px; */
+    width: 55%;
+}
+
+.subheading {
+    /* font-size: 22px; */
+    width: 50%;
+    font-weight: 400;
+    margin-bottom: 30px;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+/* .title h1::before {
+    content: "";
+    position: absolute;
+    background-color: var(--primary-color);
+    top: 120%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transform: perspective(1em) rotateX(40deg) scale(1, 00.25);
+    filter: blur(1em);
+    margin-bottom: 20px;
+} */
+
+
+
+@media (max-width:600px)
+{
+    .title  h1 {
+    /* margin: 50px 0;  */
+    width: 100%;
+    font-size: 30px;
+    }
+
+    .subheading  {
+        margin: 50px 5px; 
+        width: 100%;
+        font-size: 20px;
+        text-align: justify;
+        }
+}

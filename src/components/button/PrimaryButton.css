@@ -1,0 +1,52 @@
+#root {
+    --primary-color:#8755FE;
+}
+
+.btn {
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    background:#8755FE;
+    /* border: 3px solid var(--primary-color); */
+    /* color: var(--primaryColor); */
+    color: white;
+    /* font-family: "poppins"; */
+    border-radius: 8px;
+    /* text-shadow: 0 0 0.125em white, 0px 0px 0.25em var(--primaryColor); */
+    /* text-shadow:  0  0 0.125em currentColor; */
+    /* box-shadow:inset 0 0 0.5em 0 var(--primaryColor) ,0 0 0.5em 0 var(--primaryColor); */
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+
+}
+/* .btn::before {
+    content: "";
+    position: absolute;
+    background-color: var(--primaryColor);
+    top: 120%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;    
+    height: 100%;
+    transform: perspective(1em) rotateX(40deg) scale(1, 00.25);
+    filter: blur(1em);
+    opacity: 0.3;
+
+} */
+
+.btn:hover
+{
+    /* opacity: 1; */
+    /* color: white; */
+    /* background-color: var(--primaryColor); */
+    text-shadow: none;
+    color: black;
+}
+
+.btn:hover::after {
+    opacity: 1;
+}

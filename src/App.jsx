@@ -1,35 +1,50 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import './App.css'
 
+import { BrowserRouter, createBrowserRouter ,Outlet , Routes, Route} from 'react-router-dom';
+import { Home } from './pages/Home/Home';
+import {Navbar} from './components/Navbar/Navbar';
+import { About } from './pages/AboutUs/About';
+import { Footer } from './components/footer/Footer';
+import { Aidna } from './pages/Aidna/Aidna';
+import { Solutions } from './pages/Solutions/Solutions';
+import { ContactUs } from './pages/ContactUs/ContactUs';
+import { Udos } from './pages/Udos/Udos';
+import { Udcp } from './pages/Ucdp/Ucdp';
+const router  = createBrowserRouter([{
+  path:"/",
+  element:  <Outlet />,
+  children:[
+    {
+      path:"/home",
+      element:<Home />
+    }
+  ]
+},
+
+])
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <BrowserRouter>
+    <div className='App' >
+      <Navbar/>
+      <Routes>
+        <Route element={<Home/>} path='/' />
+        <Route element={<About/>} path='/about' />
+        <Route element={<Aidna/>} path='/aidna' />
+        <Route element={<Solutions/>} path='/solutions' />
+        <Route element={<Udos/>} path='/udos' />
+        <Route element={<Udcp/>} path='/udcp' />
+        <Route element={<ContactUs/>} path='/contactus' />
+        <Route element={<ContactUs/>} path='/contactus' />
+      </Routes>
+      <Footer/>
+    </div>
+    </BrowserRouter>
+  );
+      
+  
 }
 
 export default App

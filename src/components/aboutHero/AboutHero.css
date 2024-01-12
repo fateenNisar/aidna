@@ -1,0 +1,13 @@
+.hero {
+    height: 90vh;
+    background-color:  hsla(215,56%,10%,1) ;
+    background-image: 
+    radial-gradient(at 44% 43%, hsla(295,100%,30%,1) 0px, transparent 50% ),
+    radial-gradient(at 62% 61%, hsla(351,45%,31%,1) 0px, transparent 50%);
+}
+
+
+.horizontal-row{
+    background: linear-gradient(to right, #6d6d6d, #ffffff); /* Set the initial and final colors */
+    background-size: 100% 100%; /* Set initial width to 100% and full height */
+}

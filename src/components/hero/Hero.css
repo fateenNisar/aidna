@@ -1,0 +1,19 @@
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  .learn-more-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }

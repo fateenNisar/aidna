@@ -1,0 +1,72 @@
+#root {
+    --primaryColor:#3AFDFD;
+    --secondaryColor:#D1FE5E;
+    --tertiaryColor:#0090FE;
+    
+}
+.left {
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+.left::before {
+content: "";
+position: absolute;
+left: 0;
+width: 23%;
+height: 100%;
+inset: 0;
+background: linear-gradient(to right, #d1fe5e48 0%, transparent 100%, transparent);
+box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.153);/* background-color: aqua; */
+/* text-shadow: inset 0 0 0.125em white, 0px 0px 0.25em #30b09dd3; */
+/* text-shadow: 0 0 0.125em white, 0px 0px 0.25em aqua; */
+text-shadow: none;
+/* text-shadow:  0  0 0.125em currentColor; */
+/* box-shadow:inset 0 0 0.5em 0 var(--primary-color) ,0 0 0.5em 0 var(--primary-color); */
+/* -webkit-box-shadow:50px 0px 100px 30px #30b09c inset; */
+/* -moz-box-shadow:50px 0px 100px 30px #30b09c inset; */
+/* box-shadow: inset 50px 0px 50px 30px #30b09c ; */
+filter: blur(1px);
+/* filter: blur(25px); */
+/* transform:scale (0.5); */
+/* padding: 0 !important; */
+}
+
+.right {
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+.right::before {
+content: "";
+position: absolute;
+left: 0;
+width: 27%;
+height: 100%;
+inset: 0;
+background: linear-gradient(to right, #0090fe51 0%, transparent 100%, transparent);
+box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.153);/* background-color: aqua; */
+/* text-shadow: inset 0 0 0.125em white, 0px 0px 0.25em #30b09dd3; */
+/* text-shadow: 0 0 0.125em white, 0px 0px 0.25em aqua; */
+text-shadow: none;
+/* text-shadow:  0  0 0.125em currentColor; */
+/* box-shadow:inset 0 0 0.5em 0 var(--primary-color) ,0 0 0.5em 0 var(--primary-color); */
+/* -webkit-box-shadow:50px 0px 100px 30px #30b09c inset; */
+/* -moz-box-shadow:50px 0px 100px 30px #30b09c inset; */
+/* box-shadow: inset 50px 0px 50px 30px #30b09c ; */
+filter: blur(2px);
+/* filter: blur(25px); */
+/* transform:scale (0.5); */
+/* padding: 0 !important; */
+}
+
+
+.left-seperator{
+background-color: var(--secondaryColor);
+}
+
+.right-seperator {
+    background-color: var(--tertiaryColor);
+}
