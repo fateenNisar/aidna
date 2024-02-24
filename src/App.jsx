@@ -50,7 +50,7 @@ function App() {
         <Route element={<Solutions/>} path='/solutions' />
         <Route element={<Udos/>} path='/udos' />
         <Route element={<Udcp/>} path='/ucdp' />
-        <Route element={<ContactUs/>} path='/contactus' />
+        {/* <Route element={<ContactUs/>} path='/contactus' /> */}
         <Route element={<ContactUs/>} path='/contactus' />
       </Routes>
       <Footer/>
