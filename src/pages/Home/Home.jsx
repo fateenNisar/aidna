@@ -37,7 +37,7 @@ export const Home = () => {
             loop
             className="video   "
           >
-            <source src="digitial.mp4" type="video/mp4" />
+            <source src="home.mp4" type="video/mp4" />
           </video>
 
           <Hero
@@ -52,7 +52,7 @@ export const Home = () => {
       </div>
 
       <div></div>
-      <div data-aos="fade-right" data-aos-duration="1000">
+      <div data-aos="fade-right" data-aos-duration="1000" className="mt-22">
         <Insights />
       </div>
       {/* <Title heading={"What We Do"}  subheading={"We are purpose led global business and technology company specializing in our cutting-edge digital products, solutions and consulting services"} >  */}
@@ -85,30 +85,26 @@ export const Home = () => {
       <div data-aos="flip-right" data-aos-duration="1000">
         <div className="mt-10"></div>
 
-        <Title heading={"Discover AIDNA"}  icon={true}/>
+        <Title heading={"Discover AIDNA"}  subheading={            "Our innovative enterprise technology platform, products, and solutions re-define enterprise operations and unlock the potential with Data Intelligence and Generative AI  "} icon={true}/>
 
-        <Title
-          subheading={
-            "Our innovative enterprise technology platform, products, and solutions re-define enterprise operations and unlock the potential with Data Intelligence and Generative AI  "
-          }
-        />
+       
         <ScrollableSection
           data={[
             {
               title: "Business Context",
-              img:"images/purplescroll.avif",
+              img:"newimages/4.png",
               content:
                 " We provide visibility into your organization’s environment. Build data-driven-models to prepare a single source of truth to eliminate risks and increase resilience of products, services, and systems.",
             },
             {
               title: "Prevent Blind-Spots",
-              img:"images/3.png",
+              img:"newimages/2.png",
               content:
                 "With our biometric real-time authentication and authorization product, AIDNA capture telescopic view of everything – users, systems, applications, data, insights, analytics, and risks. Our Adaptive AI platform address gaps in real-time and effective manner.             ",
             },
             {
               title: "Unlock Value",
-              img:"images/2.png",
+              img:"newimages/analytic.png",
               content:
                 "Turns insights into action. Unlock the potential value of your digital universe with our Data Intelligence and AI Platform. AI powered Operations for every business decision",
             },
@@ -117,7 +113,7 @@ export const Home = () => {
         />
       </div>
 
-      <div data-aos="fade-left" data-aos-duration="1000">
+      <div  className="mt-10" data-aos="fade-left" data-aos-duration="1000">
         <Title heading={"Trusted By"} />
 
         <ClientLogo />

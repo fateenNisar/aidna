@@ -9,17 +9,41 @@ export const Tabs = ({ data }) => {
 
 
 
-  // const slide = () => {
-  //   const intervalId = setInterval(() => {
-  //     setActiveTab((prevTab) => (prevTab % data.length) + 1);
-  //   }, 3000);
+  let slide = () => {
+    const delay = 3000; // Set your desired interval time
+    const totalTabs = data.length;
   
-    // Clear the interval when the component unmounts
-    // return () => clearInterval(intervalId);
-  // }
+    const updateTab = (tab) => {
+      console.log("active Tab:", tab);
+  
+      // Your logic for updating the tab goes here
+      handleTabClick(tab);
+  
+      // Schedule the next update
+      setTimeout(() => {
+        if (tab === totalTabs) {
+          // Reset to 1 when it reaches the length of the data array
+          updateTab(1);
+        } else {
+          // Increment the activeTab
+          updateTab(tab + 1);
+        }
+      }, delay);
+    };
+  
+    // Start the slide show
+    updateTab(activeTab);
+  
+    // Return a function to stop the slide show (e.g., on component unmount)
+    return () => console.log("Slide show stopped");
+  };
+  
+  // Call the slide function to start the slide show
+  // slide();
+  
 
   useEffect( () => {
-  // slide()
+  slide()
   }, [])
 
   return (

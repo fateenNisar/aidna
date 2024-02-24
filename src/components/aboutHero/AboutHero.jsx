@@ -7,8 +7,9 @@ export const AboutHero = () => {
 
     <h1 className='text-white font-medium text-[64px] text-center' >We are AIDNA</h1>
     <p className='text-white text-center text-[22px] font-normal mt-3' >
-    Innovative, Focused and Dedicated Industry Specialists braking out silo’s by sharing ideas, methodologies, and knowledge across all organizational teams.
 
+
+    Creative, focused and dedicated industry experts break down barriers by sharing ideas, methods and knowledge across all organizational groups.
 </p>
         </div>
 

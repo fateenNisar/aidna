@@ -28,13 +28,13 @@ export const Aidna = () => {
         data={[
           {
             title: "Visualization and Mapping ",
-            img:"images/purplescroll.avif",
+            img:"newimages/visual.png",
             content:
               "Understand the data sets, relationships, trust boundaries and context between your assets through our aGraph™ powered asset relationship mapping",
             },
           {
             title: "Security Gaps & Inconsistencies",
-            img:"images/2.png",
+            img:"newimages/security1.png",
 
             content:
               "Real-time biometric facial recognition processing backed with AI capabilities, rapidly identifies security gaps, vulnerabilities, and data inconsistencies",
@@ -42,21 +42,21 @@ export const Aidna = () => {
 
           {
             title: "Data Integrations",
-            img:"images/3.png",
+            img:"newimages/business2.jpg",
 
             content:
               "Being a cross-cloud platform, data flow and API integrations bedrocks for custom workflows models without compromising performance, data privacy and IP control.",
           },
           {
             title: "Insights and Automate",
-            img:"images/4.png",
+            img:"newimages/insights2.jpg",
 
             content:
               "Data and insights are at the core of AIDNA, with Custom workflows, allowing to automate the existing operations with adaptive learning capabilities to enhance productivity.             ",
           },
           {
             title: "Improve & Report",
-            img:"images/5.png",
+            img:"newimages/improve.jpg",
 
             content:
               "AI driven operational insights and data hygiene provide security compliance and real-time reporting. ",
@@ -185,6 +185,7 @@ export const Aidna = () => {
         ]}
       />
 
+<div className="mt-10 ">.</div>
       <Title
         heading={"WHY AIDNA"}
         subheading={
@@ -216,7 +217,8 @@ export const Aidna = () => {
       </div>
 
       {/* <div className="mt-22" >s</div> */}
-      <Title subheading={"AIDNA comes in two modes"} />
+      <Title  subtitleStyle={{marginBottom:20}} subheading={"AIDNA comes in two modes"} />
+      <div className="h-[3px] w-24 text-center flex mx-auto  bg-[#DA2E2F]"></div>
 
       <div className="gap-0 md:flex  ">
         <NavLink  className={"w-full"} to={"/udos"}>
@@ -230,7 +232,7 @@ export const Aidna = () => {
             
           />
         </NavLink>
-        <NavLink  className={"w-full"} to={"/udcp"}>
+        <NavLink  className={"w-full"} to={"/ucdp"}>
           <TiltCard
           classes={"text-2xl mb-3"}
             title={"üCDP : Cross-Cloud Data Intelligence Product."}

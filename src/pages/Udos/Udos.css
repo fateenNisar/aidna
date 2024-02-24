@@ -1,0 +1,6 @@
+@media (max-width:640px) {
+    .mobile-carousel {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+}

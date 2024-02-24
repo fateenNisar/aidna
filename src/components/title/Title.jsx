@@ -4,14 +4,14 @@ import { NavLink } from 'react-router-dom';
 // import { ArrowRightCircleIcon } from "@heroicons/24/";
 import {useNavigate} from "react-router-dom"
 
-export const Title = ({heading, subheading,icon}) => {
+export const Title = ({heading, subheading,icon, subtitleStyle}) => {
   const navigation = useNavigate()
   return (
     <>
     <div className='title' >
-      <div className='flex gap-14 items-center '>
+      <div className='flex gap-14 items-center  mt-10'>
 
-        <h1 >
+        <h1>
 
         {heading}
         </h1>
@@ -30,7 +30,7 @@ export const Title = ({heading, subheading,icon}) => {
       </div>
 
         </div>
-        <p className='text-center text-white subheading text-sm md:text-2xl my-24' >
+        <p className={`text-center text-white subheading text-sm md:text-2xl mb-20 $`} style={subtitleStyle}  >
             {subheading}
         </p>
 

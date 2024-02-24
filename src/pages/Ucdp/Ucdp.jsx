@@ -68,6 +68,7 @@ export const Udcp = () => {
 
       <div>
         <Title
+        
           subheading={
             "Built-in governance solution with a unified set of compliance, security, privacy, interoperability and access capabilities in the Data Cloud."
           }
@@ -75,18 +76,24 @@ export const Udcp = () => {
 
         <Slider {...settings} className="flex flex-col">
           <TiltCard
+                    classes={"text-2xl mb-3"}
+
             title={"Unified Customer Data"}
             subtitle={
               "Out of box identity resolution for multi-cloud and hybrid operations. Create a 360 degree of customer data by collecting customer events from various sources i.e. onsite, mobile apps’, & multiple clouds) through data management, analytics and modeling. Industry specific custom build data activation for audience and data match.                "
             }
           />
           <TiltCard
+                    classes={"text-2xl mb-3"}
+
             title={"In-build Unity Crystal (cleanrooms)"}
             subtitle={
               "ÜCDP leverages the hybrid multi-cloud and cross-cloud data operations to generate unique cleanroom (unity-crystal) capability. It allows for measurement and analytics, optimized marketing, enhanced advertising experience and improves reporting for batch and streaming data.   "
             }
           />
           <TiltCard
+                    classes={"text-2xl mb-3"}
+
             title={"Universal Integrations"}
             subtitle={
               "Easy ingest, transform and orchestrate data from anywhere. Turnkey capabilities allow analysts and analytic engineers to easily ingest data from anything like cloud storage to enterprise applications across multiple cross cloud platforms and echo-systems. It’s just one click away.               "
@@ -94,6 +101,8 @@ export const Udcp = () => {
           />
 
           <TiltCard
+                    classes={"text-2xl mb-3"}
+
             title={"Dynamic Operational Connectivity"}
             subtitle={
               "ÜCDP integrates the semantic, kinetic, and dynamic elements of your business — empowering your teams to harmonize and automate data, analytics and decision-making in complex settings.              "
@@ -101,13 +110,17 @@ export const Udcp = () => {
           />
 
           <TiltCard
+                    classes={"text-2xl mb-3"}
+
             title={"Compliance"}
             subtitle={
-              "and audit your data with compliance, business continuity, data quality monitoring and lineage. Secure data on a platform with comprehensive compliance certifications. Replicate and failover databases, shares, role-based access control, Protect governance policies, compute resources, network policies, and more across cloudsMonitor data quality with both out-of-the-box and custom metricsAudit data usage access history & schema Change trackingUnderstand data flow, object dependencies, and lineage."
+              "and audit your data with compliance, business continuity, data quality monitoring and lineage. Secure data on a platform with comprehensive compliance certifications. Replicate and failover databases, shares, role-based access control,"
             }
           />
 
           <TiltCard
+                    classes={"text-2xl mb-3"}
+
             title={" Meaningful Visualization           "}
             subtitle={
               "üDOS integrates all relevant tech, data, logic, and models into a digital representation of your organization, and allows organizations to visualize the findings that make up their technology universe and predict future state models.              "

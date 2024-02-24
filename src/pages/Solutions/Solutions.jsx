@@ -44,7 +44,7 @@ export const Solutions = () => {
         data={[
           {
             title: "Data & Analytics for intelligent workflows",
-            img:"images/purplescroll.avif",
+            img:"newimages/dataanalytics.png",
             content: (
               <div>
                 We modernize, collect, organize, analyse and infuse data and
@@ -65,7 +65,7 @@ export const Solutions = () => {
           },
           {
             title: "Business Continuity & Resilience",
-            img:"images/2.png",
+            img:"newimages/kiwi.jpg",
 
             content: (
               <div>
@@ -84,7 +84,7 @@ export const Solutions = () => {
           },
           {
             title: "AI and Machine Learning",
-            img:"images/3.png",
+            img:"newimages/machine.png",
 
             content: (
               <div>

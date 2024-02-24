@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, NavLink } from 'react-router-dom'
 
 export const Footer = () => {
   return (
@@ -11,65 +12,63 @@ export const Footer = () => {
             <h2 className="my-6 text-sm font-semibold  uppercase text-gray-400">Company</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                    <a href="#" className=" hover:underline">About</a>
-                </li>
+                    <Link to={"about"} className=" hover:underline">About</Link>
+                </li> 
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Contact</a>
+                    <Link to="contactus" className="hover:underline">Contact</Link>
                 </li>
-                <li className="mb-4">
+                {/* <li className="mb-4">
                     <a href="#" className="hover:underline">Partner</a>
                 </li>
                 <li className="mb-4">
                     <a href="#" className="hover:underline">Blog</a>
-                </li>
+                </li> */}
             </ul>
         </div>
         <div>
             <h2 className="my-6 text-sm font-semibold  uppercase text-gray-400">Social Links</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
+               
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Discord</a>
+                    <a href="https://twitter.com/nzaidna" className="hover:underline">Twitter</a>
                 </li>
-                <li className="mb-4">
-                    <a href="#" className="hover:underline">Twitter</a>
-                </li>
-                <li className="mb-4">
+                {/* <li className="mb-4">
                     <a href="#" className="hover:underline">Facebook</a>
-                </li>
+                </li> */}
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Contact Us</a>
+                    <a href="https://www.linkedin.com/company/nz-aidna/" className="hover:underline">LinkedIn</a>
                 </li>
             </ul>
         </div>
         <div>
-            <h2 className="my-6 text-sm font-semibold text-gray-400">Legal</h2>
+            <h2 className="my-6 text-sm font-semibold text-gray-400">Aidna</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Privacy Policy</a>
+                    <NavLink to={"udos"} href="#" className="hover:underline">üdos</NavLink>
                 </li>
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Licensing</a>
+                    <NavLink to={"ucdp"} href="#" className="hover:underline">ücdp</NavLink>
                 </li>
-                <li className="mb-4">
+                {/* <li className="mb-4">
                     <a href="#" className="hover:underline">Terms &amp; Conditions</a>
-                </li>
+                </li> */}
             </ul>
         </div>
         <div>
             <h2 className="my-6 text-sm font-semibold text-gray-400">Usefull Links</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                {/* <li className="mb-4">
+                    <Link to={"/"} href="#" className="hover:underline">Home</Link>
+                </li> */}
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Home</a>
+                    <Link to={"about"} className="hover:underline">About</Link>
                 </li>
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">About</a>
+                    <Link to={"solutions"} className="hover:underline">Solutions</Link>
                 </li>
-                <li className="mb-4">
-                    <a href="#" className="hover:underline">Products</a>
-                </li>
-                <li className="mb-4">
-                    <a href="#" className="hover:underline">Contact </a>
-                </li>
+                {/* <li className="mb-4"> */}
+                    {/* <a href="#" className="hover:underline">Contact </a> */}
+                {/* </li> */}
             </ul>
         </div>
     </div>
